@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <math.h>
+
 
 unsigned long long 
 mod(unsigned long long a1, unsigned long long b1){
@@ -21,7 +23,7 @@ mod(unsigned long long a1, unsigned long long b1){
 
 unsigned long long 
 euclides_ext(unsigned long long a, unsigned long long b, unsigned long long c){
-{
+
 	unsigned long long r;
 
 	r = mod(b, a);
